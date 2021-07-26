@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
+  <body>
+    <h1 class="heading"> <%=Query %> </h1>
+    <div class="container1">
+
+    <p>Temprature: <%=temp %>°C</p>
+    <p>Min. Temp: <%=minTemp %>°C</p>
+    <p>Max. Temp: <%=maxTemp %>°C</p>
+    <p>Humidity: <%=humidity %>%</p>
+    <p>Pressure: <%=pressure %>hPa</p>
+
+    </div>
+    <div class="container2">
+       <img src=<%= Url %>>
+       <p>Weather Type: <%=description%></p>
+
+    </div>
+    <div class="notice">
+      <p>*You may need to refresh to get updated data</p>
+    </div>
+
+    <div class="footer-padding"></div>
+      <div class="footer">
+        <p>Copyright @ Shrijan Singh</p>
+      </div>
+  </body>
+</html>
